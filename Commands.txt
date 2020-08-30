@@ -1,0 +1,4 @@
+# This starts the redis server
+redis-server 
+# Commad to kick off redis
+celery -A task worker --pool=solo --loglevel=info
