@@ -128,4 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-dump.rdb
+# Ignore redis binary dump (dump.rdb) files
+
+*.rdb
